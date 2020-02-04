@@ -1,0 +1,73 @@
+.control-panel {
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.fa-caret-down {
+    margin-left: 4px;
+}
+
+.control-panel-dropdown-button {
+    border: none;
+    background-color: #cfd8dc;
+    color: #728389;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.control-panel-dropdown-button:hover {
+    background-color: #dee7eb;
+}
+
+.control-panel-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.control-panel-dropdown-content p {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+.control-panel-dropdown-content p:hover{
+    background-color: #bebebe
+}
+
+.show {display: block}
+
+.control-panel-name-input {
+    background-color: #f3f3f3;
+    color: black;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.control-panel-name-input::placeholder{
+    color: #91a0a5;
+}
+
+.control-panel-button {
+    background-color: #7b8d93;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+

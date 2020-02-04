@@ -1,0 +1,53 @@
+.playing-field {
+    margin-bottom: 2rem;
+    justify-content: center;
+    display: flex;
+    border-collapse: collapse;
+}
+
+.playing-field-table{
+    border-collapse: collapse;
+}
+
+.playing-field-td{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.playing-field-td:hover{
+    background-color: #dee7ea;
+}
+
+.blue {
+    background-color: #42d8e8;
+}
+
+.blue:hover {
+    background-color: #41c8d8;
+}
+
+.red {
+    background-color: #e85a5f;
+}
+
+.red:hover {
+    background-color: #cf585d;
+}
+
+.green {
+    background-color: #00e871;
+}
+
+.green:hover {
+    background-color: #00d46a;
+}
+
+
+.playing-field-title {
+    margin-top: 2rem;
+    color: #8d8d8d;
+    text-align: center;
+}

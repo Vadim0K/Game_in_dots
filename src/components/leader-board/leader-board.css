@@ -1,0 +1,32 @@
+.leader-board{
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.leader-board-title {
+    color: #888888;
+
+}
+
+.leader-board-list{
+    width: 420px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.leader-board-winner {
+    background-color: #cfd8dc;
+    color: #a5aeb1;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 15px;
+    margin-bottom: 2px;
+}
