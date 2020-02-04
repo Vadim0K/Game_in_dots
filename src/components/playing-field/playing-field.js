@@ -41,7 +41,7 @@ const PlayingField = ({isGameActive, setIsGameActive, userName, gameConfig, setI
 
     useEffect(()=>{ //changing difficulty only when table is inactive to avoid crash
         if(gameConfig && !tableRenderStatus) {
-            setDifficulty({scale: gameConfig.field, time: 200});
+            setDifficulty({scale: gameConfig.field, time:gameConfig.delay});
         }
     },[gameConfig]);
 
